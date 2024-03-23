@@ -11,11 +11,11 @@ Task :
 2. Tampilkan lima baris pertama dari DataFrame tersebut.
 3. Berapa jumlah total lagu dalam dataset?
 4. Berapa jumlah kolom dalam dataset?
-5. Tampilkan ringkasan statistik deskriptif dari kolom 'popularity' (kepopuleran lagu) dalam dataset.
+5. Tampilkan ringkasan statistik deskriptif dari kolom 'arist(s)_name' (nama artis) dalam dataset.
 6. Berapa rata-rata kepopuleran lagu dalam dataset?
 7. Berapa lagu dengan kepopuleran tertinggi dalam dataset?
 8. Berapa lagu dengan kepopuleran terendah dalam dataset?
-9. Tampilkan 10 lagu dengan jumlah 'followers' (pengikut) terbanyak dari kolom 'artists' (artis) dalam dataset.
+9. Tampilkan 10 lagu dengan jumlah 'streams' (pendengar) terbanyak dari kolom 'track_name' (nama lagu) dalam dataset.
 10. Visualisasikan distribusi kepopuleran lagu dalam bentuk histogram.
 
 #2 Analisis Artis dalam Popular Spotify Songs
@@ -25,12 +25,12 @@ Task :
 4. Tampilkan 10 artis dengan rata-rata kepopuleran lagu tertinggi.
 
 #3 Korelasi antara Fitur Lagu
-1. Hitung korelasi antara fitur 'danceability' (kemampuan untuk menari) dan 'energy' (energi) dari lagu.
-2. Hitung korelasi antara fitur 'valence' (kesenangan) dan 'loudness' (kenyaringan) dari lagu.
+1. Hitung korelasi antara fitur 'danceability' dan 'energy' dari lagu.
+2. Hitung korelasi antara fitur 'valence' dan 'liveness' dari lagu.
 3. Apakah ada korelasi yang signifikan antara fitur-fitur tersebut? Jelaskan.
 
 #4 Analisis Waktu Rilis Lagu
-1. Ubah kolom 'release_date' (tanggal rilis) menjadi tipe data datetime.
+1. Ubah kolom 'released_day' (tanggal rilis) menjadi tipe data datetime.
 2. Buat kolom baru 'year' (tahun) yang berisi tahun rilis dari lagu.
 3. Hitung jumlah lagu yang dirilis pada setiap tahun.
 4. Visualisasikan jumlah lagu yang dirilis pada setiap tahun dalam bentuk diagram batang.
@@ -44,6 +44,6 @@ Task :
 Panduan Penyelesaian
 1. Baca dataset dari file CSV ke dalam DataFrame menggunakan Pandas.
 2. Gunakan fungsi-fungsi Pandas seperti head(), info(), describe(), value_counts(), dan lainnya untuk menjawab pertanyaan-pertanyaan yang diberikan.
-3.Untuk visualisasi, Anda dapat menggunakan pustaka Matplotlib atau Seaborn.
+3. Untuk visualisasi, Anda dapat menggunakan pustaka Matplotlib atau Seaborn.
 
 ==Selamat mengerjakan!==

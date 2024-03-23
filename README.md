@@ -41,9 +41,10 @@ Task :
 3. Hitung rata-rata kepopuleran lagu dalam setiap genre.
 4. Tampilkan 10 genre dengan rata-rata kepopuleran lagu tertinggi.
 
-Panduan Penyelesaian
-1. Baca dataset dari file CSV ke dalam DataFrame menggunakan Pandas.
-2. Gunakan fungsi-fungsi Pandas seperti head(), info(), describe(), value_counts(), dan lainnya untuk menjawab pertanyaan-pertanyaan yang diberikan.
-3. Untuk visualisasi, Anda dapat menggunakan pustaka Matplotlib atau Seaborn.
+Panduan Penyelesaian:
+
+1. Membaca dataset dari file CSV ke dalam DataFrame menggunakan Pandas.
+2. Menggunakan fungsi-fungsi Pandas seperti head(), info(), describe(), value_counts(), dan lainnya untuk menjawab pertanyaan-pertanyaan yang diberikan.
+3. Untuk visualisasi, saya menggunakan pustaka Matplotlib atau Seaborn.
 
 ==Terima Kasih==

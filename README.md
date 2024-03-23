@@ -1,7 +1,10 @@
 # portfolio-db_engineer-spotify
 
+Ini adalah project dummy yang diperuntukan untuk kebutuhan portfolio sebagai seorang "DATABASE ENGINEER".
 
-Berikut adalah contoh soal untuk tema "Popular Spotify Songs" dalam format Jupyter Notebook:
+Source dataset : https://www.kaggle.com/datasets/arnavvvvv/spotify-music/data
+
+Task :
 
 #1 Statistik Data Popular Spotify Songs
 1. Buatlah sebuah DataFrame dari file CSV yang berisi data tentang lagu-lagu populer di Spotify.
@@ -25,20 +28,21 @@ Berikut adalah contoh soal untuk tema "Popular Spotify Songs" dalam format Jupyt
 1. Hitung korelasi antara fitur 'danceability' (kemampuan untuk menari) dan 'energy' (energi) dari lagu.
 2. Hitung korelasi antara fitur 'valence' (kesenangan) dan 'loudness' (kenyaringan) dari lagu.
 3. Apakah ada korelasi yang signifikan antara fitur-fitur tersebut? Jelaskan.
-4. Soal 4: Analisis Waktu Rilis Lagu
-5. Ubah kolom 'release_date' (tanggal rilis) menjadi tipe data datetime.
-6. Buat kolom baru 'year' (tahun) yang berisi tahun rilis dari lagu.
-6. Hitung jumlah lagu yang dirilis pada setiap tahun.
-7. Visualisasikan jumlah lagu yang dirilis pada setiap tahun dalam bentuk diagram batang.
 
-Soal 5: Analisis Genre Lagu (Opsional)
+#4 Analisis Waktu Rilis Lagu
+1. Ubah kolom 'release_date' (tanggal rilis) menjadi tipe data datetime.
+2. Buat kolom baru 'year' (tahun) yang berisi tahun rilis dari lagu.
+3. Hitung jumlah lagu yang dirilis pada setiap tahun.
+4. Visualisasikan jumlah lagu yang dirilis pada setiap tahun dalam bentuk diagram batang.
+
+#5 Analisis Playlists Lagu
 1. Jika dataset Anda menyertakan informasi tentang genre lagu, hitung jumlah lagu dalam setiap genre.
 2. Tampilkan 10 genre dengan jumlah lagu terbanyak.
 3. Hitung rata-rata kepopuleran lagu dalam setiap genre.
 4. Tampilkan 10 genre dengan rata-rata kepopuleran lagu tertinggi.
 
 Panduan Penyelesaian
-1.  Baca dataset dari file CSV ke dalam DataFrame menggunakan Pandas.
+1. Baca dataset dari file CSV ke dalam DataFrame menggunakan Pandas.
 2. Gunakan fungsi-fungsi Pandas seperti head(), info(), describe(), value_counts(), dan lainnya untuk menjawab pertanyaan-pertanyaan yang diberikan.
 3.Untuk visualisasi, Anda dapat menggunakan pustaka Matplotlib atau Seaborn.
 

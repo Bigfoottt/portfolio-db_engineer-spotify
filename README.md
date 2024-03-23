@@ -46,4 +46,4 @@ Panduan Penyelesaian
 2. Gunakan fungsi-fungsi Pandas seperti head(), info(), describe(), value_counts(), dan lainnya untuk menjawab pertanyaan-pertanyaan yang diberikan.
 3. Untuk visualisasi, Anda dapat menggunakan pustaka Matplotlib atau Seaborn.
 
-==Selamat mengerjakan!==
+==Terima Kasih==
